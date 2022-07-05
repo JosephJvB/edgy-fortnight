@@ -10,7 +10,7 @@ export const handler = async (event: CloudFrontRequestEvent): Promise<CloudFront
       statusDescription: 'Moved Permanently',
       headers: {
         location: [{
-          key: 'location',
+          key: 'Location',
           value: 'https://www.jaf-unwrapped.com'
         }]
       }
